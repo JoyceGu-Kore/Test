@@ -1,5 +1,5 @@
 {
-   "responseMsg":"{"   bizGenResp":{
+   "responseMsg":{"   bizGenResp":{
       "modelId":2201,
       "transactionId":"36921802742357620",
       "responseCode":0,
@@ -55,5 +55,5 @@
          }
       ]
    }
-}"
+}
 }
