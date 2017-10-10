@@ -1,0 +1,59 @@
+{
+   "responseMsg":"{"   bizGenResp":{
+      "modelId":2201,
+      "transactionId":"36921802742357620",
+      "responseCode":0,
+      "hmacsign":"XE17VFiS3HSgvnU8DYusTEA8jsccylxnSRmJ7fJ/uq8="
+   },
+   "bizTransferInitiateResp":{
+      "modelId":2201,
+      "transactionId":"36921802742357620",
+      "responseCode":0,
+      "plnmntFlag":"false",
+      "unplnmntFlag":"false",
+      "todaysSMART":"0.00",
+      "todaysORFT":"2",
+      "todaysInHouse":"0.00",
+      "todaysPP":"0.00",
+      "remainingFreeTransfers":"2",
+      "currentBalance":"60174845.76",
+      "availableBalance":"60174845.76",
+      "promptPayEligibility":"TMB",
+      "receiveDate":"2017-10-02 14:03:51.00177",
+      "payeeList":[
+         {
+            "payeeId":"0010015069278310132003",
+            "iconImg":"data:image/png;base64",
+            "acNum":"0010020033",
+            "acName":"CHOTIPOL PIT CO.,LTD.",
+            "isORFTSupported":"true",
+            "isSMARTSupported":"true",
+            "isInHouseSupported":"false",
+            "nickName":"test-kbank",
+            "shortName":"04",
+            "shortNameEn":"Kasikorn Bank",
+            "shortNameTh":"ธ.กสิกรไทย",
+            "bankName":"Kasikorn Bank",
+            "bankNameTH":"ธนาคารกสิกรไทย จำกัด (มหาชน)"
+         },
+         {
+            "payeeId":"0332115069278310132154",
+            "iconImg":"data:image/png;base64",
+            "acNum":"0332121540",
+            "acName":"NAME TEST.",
+            "availBalance":"133569.82",
+            "acStatus":"ACTIVE",
+            "isORFTSupported":"true",
+            "isSMARTSupported":"true",
+            "isInHouseSupported":"true",
+            "nickName":"TMB",
+            "shortName":"11",
+            "shortNameEn":"TMB Bank",
+            "shortNameTh":"ธ.ทหารไทย",
+            "bankName":"TMB Bank",
+            "bankNameTH":"ธนาคารทหารไทย จำกัด (มหาชน)"
+         }
+      ]
+   }
+}"
+}
