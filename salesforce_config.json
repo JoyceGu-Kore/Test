@@ -1,0 +1,15 @@
+{
+    "live_agent":
+    {
+        "liveAgentUrl": "https://d.la2-c1-ia2.salesforceliveagent.com/chat/rest",
+        "organizationId": "00D1U000000u2eo",
+        "deploymentId": "5721U000000VBok",
+        "screenResolution": "1900x1080",
+        "userAgent": "Mozilla/5.0",
+        "apiVersion": "40",
+        "language": "en-US",
+        "buttonId": "5731U000000VDWQ"
+    },
+    "SFDC_TOKEN_URL": "https://test.salesforce.com",
+    "SFDC_API_URL": "https://someenv.my.salesforce.com"
+}

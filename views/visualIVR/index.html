@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Kore.ai</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="https://developer.kore.ai/wp-content/uploads/kore-60x60.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://developer.kore.ai/wp-content/uploads/kore-60x60.png" />
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+            <form method="POST" id="wizard">
+        		<!-- SECTION 1 -->
+                <h4></h4>
+                <section>
+                    <h3>Member Information</h3>
+					
+					 <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" placeholder="Sara Smith">
+                            <i class="zmdi zmdi-account"></i>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" placeholder="12th June 1980">
+                            <i class="zmdi zmdi-calendar"></i>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" id="UserAddress" placeholder="Address">
+                            <i class="zmdi zmdi-account"></i>
+                        </div>
+                    </div>
+					
+                </section>
+
+				<!-- SECTION 2 -->
+                <h4></h4>
+                <section>
+                	<h3>Patient Information</h3>
+					<div class="form-row">
+                        <div class="form-holder w-100">
+                            <select name="patient" id="patient" class="form-control">
+									<option value="" class="option">Select Patient</option>
+									<option value="John Smith" class="option">John Smith</option>
+									<option value="Peter Smith" class="option">Peter Smith</option>
+									<option value="Clara Smith" class="option">Clara Smith</option>
+								</select>
+								
+                            <i class="zmdi zmdi-down"></i>
+                        </div>
+						
+						
+						
+                    </div>
+					
+					
+					<div class="form-row" id="text1" style="display:none;">
+                        <div class="form-holder w-100">
+                            <input type="text" name="firstname" id="firstname" value="" class="form-control" readonly>
+                            <i class="zmdi zmdi-account"></i>
+                        </div>
+                    </div>
+                    <div class="form-row" id="text2" style="display:none;">
+                        <div class="form-holder w-100">
+                            <input type="text" name="dob" id="dob" class="form-control"  readonly>
+                            <i class="zmdi zmdi-calendar"></i>
+                        </div>
+                    </div>
+                    <div class="form-row" id="text3" style="display:none;">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" placeholder="2427 Midway Rd, Ola, Arkansas, 72853" readonly>
+                            <i class="zmdi zmdi-account"></i>
+                        </div>
+                    </div>
+					
+					
+                    
+                   
+                </section>
+
+                <!-- SECTION 3 -->
+                <h4></h4>
+                <section>
+				
+				 <h3>Other Details</h3>
+					
+					 <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="file" class="form-control" id="bill" placeholder="Upload Bill">
+                            <i class="zmdi zmdi-upload"></i>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" id="amount" placeholder="Amount ($)">
+                            <i class="zmdi zmdi-money"></i>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" id="phyName" placeholder="Jon">
+                            <i class="zmdi zmdi-account"></i>
+                        </div>
+                    </div>
+					
+					 <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" id="phyAdd" placeholder="Address of the Physician">
+                            <i class="zmdi zmdi-account"></i>
+                        </div>
+                    </div>
+					
+					 <div class="form-row">
+                        <div class="form-holder w-100">
+                            <input type="text" class="form-control" id="npi" placeholder="Provider NPI">
+                            <i class="zmdi zmdi-account"></i>
+                        </div>
+                    </div>
+				
+				
+				
+				
+				                </section>
+
+                <!-- SECTION 4 -->
+                <h4></h4>
+                <section>
+                    <h3>Summary</h3>
+					
+					<div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                             <input type="text" class="form-control" id="GetUName" placeholder="" readonly>
+                        </div>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-calendar"></i>
+                             <input type="text" class="form-control" id="GetDOB" placeholder="" readonly>
+                        </div>
+                	</div>
+					
+					<div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                             <input type="text" class="form-control" id="GetAddress" placeholder="" readonly>
+                        </div>
+
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-file"></i>
+                            <input type="text" class="form-control" id="GetBill" placeholder="" readonly>
+                        </div>
+                	</div>
+					
+					<div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-money"></i>
+                             <input type="text" class="form-control" id="GetAmount" placeholder="" readonly >
+                        </div>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                           <input type="text" class="form-control" id="GetPhyName" placeholder="Jon" readonly>
+                        </div>
+                	</div>
+					
+					<div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                             <input type="text" class="form-control" id="GetPhyAdd" placeholder="" readonly>
+                        </div>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                            <input type="text" class="form-control" id="GetNPI" placeholder="" readonly>
+                        </div>
+                	</div>
+					
+                  
+					
+					
+                    
+                </section>
+            </form>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		
+		<!-- JQUERY STEP -->
+		<script src="js/jquery.steps.js"></script>
+
+		<script src="js/main.js"></script>
+
+<!-- https://dpd.kore.ai/visualivr -->
+</body>
+</html>
+
