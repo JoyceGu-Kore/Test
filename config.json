@@ -1,0 +1,31 @@
+{
+    "server": {
+        "port": 6443
+    },
+    "app": {
+        "apiPrefix" : "/visualIVR",
+        "url": "https://demo.kore.net"
+    },
+    "credentials": {
+	"st-e1710adf-3d19-53c8-ab6b-46510d7602ba":{
+            "apikey": "x7febJyVkTixeRLsATWOudKp/Huyhd8wcWTUzZZ5qCk=",
+            "appId": "cs-03f4f900-618f-52a1-b0c6-9b76cb765fb5",
+            "botname":"Visual IVR"
+        }
+           
+    },
+	
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": true
+    },
+	"sfdc_config_file":"./salesforce_config.json",
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true
+}
